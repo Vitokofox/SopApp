@@ -1,0 +1,30 @@
+schema: spec-driven
+
+context: |
+  Objetivo: reconstruir de forma mantenible la aplicación local SOP Operaciones - Arauco.
+  Fuente auditada: SOP_Arauco.exe, una SPA React con API FastAPI/SQLite empaquetada con PyInstaller.
+  Idioma principal de requisitos y documentación: español.
+  La réplica debe preservar contratos HTTP, permisos, reglas de finalización y flujos observados.
+  Nunca incluir contraseñas reales ni tokens en artefactos o código fuente.
+
+rules:
+  specs:
+    - Escribir requisitos normativos en español y escenarios GIVEN/WHEN/THEN.
+    - Distinguir comportamiento confirmado de inferencias de implementación.
+  design:
+    - Mantener compatibilidad con los endpoints /api observados.
+    - Incluir seguridad, persistencia, importación y estrategia de pruebas.
+  tasks:
+    - Ordenar tareas por dependencias y exigir pruebas por capacidad.
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing

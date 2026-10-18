@@ -1,0 +1,30 @@
+{
+  "code": "SOP-DEMO-001",
+  "revision": "Rev. 0",
+  "title": "Aislamiento seguro de equipo",
+  "area": "Operaciones",
+  "machine": "Línea de demostración",
+  "elaborator": "Usuario de Demostración",
+  "chief_area": "Jefatura Demo",
+  "chief_masso": "SSO Demo",
+  "publication_date": "2026-08-25",
+  "last_update": "2026-08-25",
+  "tools_text": "Candado y tarjeta",
+  "flexibility_matrix": "Operador autorizado",
+  "key_rule": "Verificar energía cero",
+  "risks_text": "R1 Energía residual",
+  "controls_text": "C1 Bloqueo",
+  "epp_text": "Casco, lentes y guantes",
+  "status": "en proceso",
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Detener equipo",
+      "procedure_text": "Aplicar detención normal y verificar inmovilidad.",
+      "image_path": "/files/demo/step-1.png",
+      "risk_codes": ["R1"],
+      "control_codes": ["C1"]
+    }
+  ],
+  "evaluation": "[{\"question_text\":\"¿Se verificó energía cero?\",\"correct\":\"a\",\"a\":\"Sí\",\"b\":\"No\",\"c\":\"No aplica\",\"d\":\"Repetir\"}]"
+}

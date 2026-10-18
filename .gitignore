@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.tsbuildinfo
+backend/.venv/
+backend/.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+.wine-build/
+build/
+dist/
+release/
+data/
+*.db
+*.log
+.env
